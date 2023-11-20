@@ -19,6 +19,7 @@ function App() {
         </a>
       </header> */}
     <Welcome name="Mohammed" />
+    <Welcome name="Almuntaser" />
     </div>
   );
 }
