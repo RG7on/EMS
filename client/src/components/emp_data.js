@@ -1288,5 +1288,436 @@ const employees =[
         Overall_Performance_Rating: 4.3,
         Evaluator_Comments: "Amani is highly skilled in anesthesia technology, ensuring safe and efficient support during surgical procedures."
     }
-}
+},
+{
+    "employee": "E2031",
+    "firstName": "Zainab",
+    "lastName": "Al Riyami",
+    "gender": "Female",
+    "position": "Medical Laboratory Scientist",
+    "department": "Pathology",
+    "contact": {
+        "email": "zainab.alriyami@examplehospital.om",
+        "phone": "+968-7531-3101"
+    },
+    "address": {
+        "street": "321 Al Khoudh St",
+        "city": "Muscat",
+        "state": "Muscat Governorate",
+        "zipCode": "100"
+    },
+    "employmentDetails": {
+        "hireDate": "2020-10-20",
+        "employmentType": "Full-Time",
+        "shift": "Day"
+    },
+    "qualifications": ["BSc in Medical Laboratory Science", "Certified Medical Laboratory Scientist"],
+    "emergencyContact": {
+        "name": "Ali Al Riyami",
+        "relationship": "Brother",
+        "phone": "+968-7531-3102"
+    },
+    "evaluation": {
+        "Clinical Competence": 4,
+        "Patient Care": "N/A",
+        "Teamwork and Collaboration": 4,
+        "Efficiency and Time Management": 5,
+        "Problem-Solving and Decision-Making Skills": 4,
+        "Communication Skills": 4,
+        "Leadership and Initiative": 3,
+        "Attendance and Reliability": 5,
+        "Ethical Conduct and Professionalism": 5,
+        "Health and Safety Compliance": 5,
+        "Overall Performance Rating": 4.4,
+        "Evaluator's Comments": "Zainab is proficient in laboratory procedures and consistently demonstrates a high level of professionalism."
+    }
+},
+{
+    "employee": "E2032",
+    "firstName": "Khalifa",
+    "lastName": "Al Amri",
+    "gender": "Male",
+    "position": "Healthcare Administrator",
+    "department": "Administration",
+    "contact": {
+        "email": "khalifa.alamri@examplehospital.om",
+        "phone": "+968-7532-3201"
+    },
+    "address": {
+        "street": "876 Al Mawaleh North St",
+        "city": "Salalah",
+        "state": "Dhofar Governorate",
+        "zipCode": "211"
+    },
+    "employmentDetails": {
+        "hireDate": "2019-08-15",
+        "employmentType": "Full-Time",
+        "shift": "Day"
+    },
+    "qualifications": ["Masters in Health Administration", "Certified Healthcare Administrator"],
+    "emergencyContact": {
+        "name": "Fatma Al Amri",
+        "relationship": "Sister",
+        "phone": "+968-7532-3202"
+    },
+    "evaluation": {
+        "Clinical Competence": "N/A",
+        "Patient Care": "N/A",
+        "Teamwork and Collaboration": 5,
+        "Efficiency and Time Management": 5,
+        "Problem-Solving and Decision-Making Skills": 5,
+        "Communication Skills": 5,
+        "Leadership and Initiative": 5,
+        "Attendance and Reliability": 5,
+        "Ethical Conduct and Professionalism": 5,
+        "Health and Safety Compliance": "N/A",
+        "Overall Performance Rating": 4.9,
+        "Evaluator's Comments": "Khalifa excels in managing administrative tasks and has shown outstanding leadership in healthcare administration."
+    }
+},
+{
+    "employee": "E2033",
+    "firstName": "Huda",
+    "lastName": "Al Ghassani",
+    "gender": "Female",
+    "position": "Ophthalmologist",
+    "department": "Ophthalmology",
+    "contact": {
+        "email": "huda.alghassani@examplehospital.om",
+        "phone": "+968-7533-3301"
+    },
+    "address": {
+        "street": "123 Al Ghubrah St",
+        "city": "Nizwa",
+        "state": "Ad Dakhiliyah Governorate",
+        "zipCode": "611"
+    },
+    "employmentDetails": {
+        "hireDate": "2018-03-05",
+        "employmentType": "Full-Time",
+        "shift": "Day"
+    },
+    "qualifications": ["MD", "Fellowship in Ophthalmology"],
+    "emergencyContact": {
+        "name": "Ahmed Al Ghassani",
+        "relationship": "Father",
+        "phone": "+968-7533-3302"
+    },
+    "evaluation": {
+        "Clinical Competence": 5,
+        "Patient Care": 5,
+        "Teamwork and Collaboration": 4,
+        "Efficiency and Time Management": 4,
+        "Problem-Solving and Decision-Making Skills": 5,
+        "Communication Skills": 4,
+        "Leadership and Initiative": 4,
+        "Attendance and Reliability": 5,
+        "Ethical Conduct and Professionalism": 5,
+        "Health and Safety Compliance": 5,
+        "Overall Performance Rating": 4.7,
+        "Evaluator's Comments": "Huda is highly skilled in ophthalmology, providing exceptional care with great attention to detail."
+    }
+},
+{
+    "employee": "E2034",
+    "firstName": "Saud",
+    "lastName": "Al Busaidi",
+    "gender": "Male",
+    "position": "Emergency Room Physician",
+    "department": "Emergency",
+    "contact": {
+        "email": "saud.albusaidi@examplehospital.om",
+        "phone": "+968-7534-3401"
+    },
+    "address": {
+        "street": "789 Al Tarif St",
+        "city": "Ibri",
+        "state": "Al Dhahirah Governorate",
+        "zipCode": "511"
+    },
+    "employmentDetails": {
+        "hireDate": "2020-12-01",
+        "employmentType": "Full-Time",
+        "shift": "Evening"
+    },
+    "qualifications": ["MD", "Board Certified in Emergency Medicine"],
+    "emergencyContact": {
+        "name": "Maryam Al Busaidi",
+        "relationship": "Wife",
+        "phone": "+968-7534-3402"
+    },
+    "evaluation": {
+        "Clinical Competence": 5,
+        "Patient Care": 5,
+        "Teamwork and Collaboration": 5,
+        "Efficiency and Time Management": 4,
+        "Problem-Solving and Decision-Making Skills": 5,
+        "Communication Skills": 5,
+        "Leadership and Initiative": 4,
+        "Attendance and Reliability": 5,
+        "Ethical Conduct and Professionalism": 5,
+        "Health and Safety Compliance": 5,
+        "Overall Performance Rating": 4.8,
+        "Evaluator's Comments": "Saud demonstrates exceptional skills in emergency medicine, with excellent decision-making and patient care."
+    }
+},
+{
+    "employee": "E2035",
+    "firstName": "Noor",
+    "lastName": "Al Harthy",
+    "gender": "Female",
+    "position": "Speech Therapist",
+    "department": "Rehabilitation",
+    "contact": {
+        "email": "noor.alharthy@examplehospital.om",
+        "phone": "+968-7535-3501"
+    },
+    "address": {
+        "street": "876 Al Khoudh Market St",
+        "city": "Muscat",
+        "state": "Muscat Governorate",
+        "zipCode": "100"
+    },
+    "employmentDetails": {
+        "hireDate": "2021-06-15",
+        "employmentType": "Part-Time",
+        "shift": "Day"
+    },
+    "qualifications": ["MSc in Speech-Language Pathology", "Certified Speech Therapist"],
+    "emergencyContact": {
+        "name": "Saeed Al Harthy",
+        "relationship": "Brother",
+        "phone": "+968-7535-3502"
+    },
+    "evaluation": {
+        "Clinical Competence": 4,
+        "Patient Care": 5,
+        "Teamwork and Collaboration": 4,
+        "Efficiency and Time Management": 4,
+        "Problem-Solving and Decision-Making Skills": 4,
+        "Communication Skills": 5,
+        "Leadership and Initiative": "N/A",
+        "Attendance and Reliability": 5,
+        "Ethical Conduct and Professionalism": 4,
+        "Health and Safety Compliance": 4,
+        "Overall Performance Rating": 4.4,
+        "Evaluator's Comments": "Noor is highly effective in speech therapy, showing great compassion and skill in treating patients."
+    }
+},
+{
+    "employee": "E2036",
+    "firstName": "Ayesha",
+    "lastName": "Al Qasmi",
+    "gender": "Female",
+    "position": "Dermatologist",
+    "department": "Dermatology",
+    "contact": {
+        "email": "ayesha.alqasmi@examplehospital.om",
+        "phone": "+968-7536-3601"
+    },
+    "address": {
+        "street": "321 Al Khuwayr St",
+        "city": "Salalah",
+        "state": "Dhofar Governorate",
+        "zipCode": "211"
+        },
+        "employmentDetails": {
+            "hireDate": "2019-07-22",
+            "employmentType": "Full-Time",
+            "shift": "Day"
+        },
+        "qualifications": ["MD in Dermatology", "Board Certified Dermatologist"],
+        "emergencyContact": {
+            "name": "Mohammed Al Qasmi",
+            "relationship": "Father",
+            "phone": "+968-7536-3602"
+        },
+        "evaluation": {
+            "Clinical Competence": 5,
+            "Patient Care": 5,
+            "Teamwork and Collaboration": 4,
+            "Efficiency and Time Management": 4,
+            "Problem-Solving and Decision-Making Skills": 5,
+            "Communication Skills": 4,
+            "Leadership and Initiative": 4,
+            "Attendance and Reliability": 5,
+            "Ethical Conduct and Professionalism": 5,
+            "Health and Safety Compliance": 5,
+            "Overall Performance Rating": 4.7,
+            "Evaluator's Comments": "Ayesha is an excellent dermatologist with a strong ability to diagnose and treat skin conditions effectively."
+        }
+    },
+    {
+        "employee": "E2037",
+        "firstName": "Yousef",
+        "lastName": "Al Jabri",
+        "gender": "Male",
+        "position": "Cardiac Surgeon",
+        "department": "Cardiology",
+        "contact": {
+            "email": "yousef.aljabri@examplehospital.om",
+            "phone": "+968-7537-3701"
+        },
+        "address": {
+            "street": "789 Al Rumais St",
+            "city": "Nizwa",
+            "state": "Ad Dakhiliyah Governorate",
+            "zipCode": "611"
+        },
+        "employmentDetails": {
+            "hireDate": "2018-01-10",
+            "employmentType": "Full-Time",
+            "shift": "Day"
+        },
+        "qualifications": ["MD", "Fellowship in Cardiac Surgery"],
+        "emergencyContact": {
+            "name": "Sara Al Jabri",
+            "relationship": "Sister",
+            "phone": "+968-7537-3702"
+        },
+        "evaluation": {
+            "Clinical Competence": 5,
+            "Patient Care": 5,
+            "Teamwork and Collaboration": 5,
+            "Efficiency and Time Management": 4,
+            "Problem-Solving and Decision-Making Skills": 5,
+            "Communication Skills": 4,
+            "Leadership and Initiative": 4,
+            "Attendance and Reliability": 5,
+            "Ethical Conduct and Professionalism": 5,
+            "Health and Safety Compliance": 5,
+            "Overall Performance Rating": 4.8,
+            "Evaluator's Comments": "Yousef is a highly skilled cardiac surgeon with excellent surgical outcomes and patient care."
+        }
+    },
+    {
+        "employee": "E2038",
+        "firstName": "Amal",
+        "lastName": "Al Badi",
+        "gender": "Female",
+        "position": "Clinical Laboratory Technician",
+        "department": "Laboratory",
+        "contact": {
+            "email": "amal.albadi@examplehospital.om",
+            "phone": "+968-7538-3801"
+        },
+        "address": {
+            "street": "456 Al Mabela St",
+            "city": "Ibri",
+            "state": "Al Dhahirah Governorate",
+            "zipCode": "511"
+        },
+        "employmentDetails": {
+            "hireDate": "2021-08-03",
+            "employmentType": "Part-Time",
+            "shift": "Night"
+        },
+        "qualifications": ["Associate Degree in Medical Laboratory Technology", "Certified Lab Technician"],
+        "emergencyContact": {
+            "name": "Khalid Al Badi",
+            "relationship": "Brother",
+            "phone": "+968-7538-3802"
+        },
+        "evaluation": {
+            "Clinical Competence": 4,
+            "Patient Care": "N/A",
+            "Teamwork and Collaboration": 4,
+            "Efficiency and Time Management": 5,
+            "Problem-Solving and Decision-Making Skills": 3,
+            "Communication Skills": 4,
+            "Leadership and Initiative": "N/A",
+            "Attendance and Reliability": 5,
+            "Ethical Conduct and Professionalism": 4,
+            "Health and Safety Compliance": 5,
+            "Overall Performance Rating": 4.3,
+            "Evaluator's Comments": "Amal is highly skilled in laboratory procedures, showcasing excellent time management and reliability."
+        }
+    },
+    {
+        "employee": "E2039",
+        "firstName": "Majid",
+        "lastName": "Al Salmi",
+        "gender": "Male",
+        "position": "Gastroenterologist",
+        "department": "Gastroenterology",
+        "contact": {
+            "email": "majid.alsalmi@examplehospital.om",
+            "phone": "+968-7539-3901"
+        },
+        "address": {
+            "street": "123 Al Sarooj St",
+            "city": "Muscat",
+            "state": "Muscat Governorate",
+            "zipCode": "100"
+        },
+        "employmentDetails": {
+            "hireDate": "2019-04-25",
+            "employmentType": "Full-Time",
+            "shift": "Day"
+        },
+        "qualifications": ["MD", "Board Certified in Gastroenterology"],
+        "emergencyContact": {
+            "name": "Fatma Al Salmi",
+            "relationship": "Wife",
+            "phone": "+968-7539-3902"
+        },
+        "evaluation": {
+            "Clinical Competence": 5,
+            "Patient Care": 4,
+            "Teamwork and Collaboration": 4,
+            "Efficiency and Time Management": 4,
+            "Problem-Solving and Decision-Making Skills": 5,
+            "Communication Skills": 4,
+            "Leadership and Initiative": 3,
+            "Attendance and Reliability": 5,
+            "Ethical Conduct and Professionalism": 4,
+            "Health and Safety Compliance": 5,
+            "Overall Performance Rating": 4.4,
+            "Evaluator's Comments": "Majid demonstrates excellent expertise in gastroenterology with strong patient care and diagnostic skills."
+        }
+    },
+    {
+        "employee": "E2040",
+        "firstName": "Hanan",
+        "lastName": "Al Habsi",
+        "gender": "Female",
+        "position": "Occupational Therapist",
+        "department": "Rehabilitation",
+        "contact": {
+            "email": "hanan.alhabsi@examplehospital.om",
+            "phone": "+968-7540-4001"
+        },
+        "address": {
+            "street": "789 Al Ansab St",
+            "city": "Salalah",
+            "state": "Dhofar Governorate",
+            "zipCode": "211"
+        },
+        "employmentDetails": {
+            "hireDate": "2020-11-10",
+            "employmentType": "Full-Time",
+            "shift": "Day"
+        },
+        "qualifications": ["MSc in Occupational Therapy", "Licensed Occupational Therapist"],
+        "emergencyContact": {
+            "name": "Ahmed Al Habsi",
+            "relationship": "Father",
+            "phone": "+968-7540-4002"
+        },
+        "evaluation": {
+            "Clinical Competence": 4,
+            "Patient Care": 5,
+            "Teamwork and Collaboration": 5,
+            "Efficiency and Time Management": 4,
+            "Problem-Solving and Decision-Making Skills": 4,
+            "Communication Skills": 4,
+            "Leadership and Initiative": 3,
+            "Attendance and Reliability": 5,
+            "Ethical Conduct and Professionalism": 4,
+            "Health and Safety Compliance": 5,
+            "Overall Performance Rating": 4.4,
+            "Evaluator's Comments": "Hanan excels in providing effective occupational therapy, demonstrating a strong commitment to patient rehabilitation."
+        }
+    }
+
 ]
