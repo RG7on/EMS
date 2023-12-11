@@ -6,12 +6,22 @@ function Login() {
   const [responseMsg, setresponseMsg] = useState("");
 
   //http request
-  const login = ()=>{
-    Axios.post('http://localhost:3001/login',
-    {empId:empId,password:password})
-    .then((response)=>{setresponseMsg(response.data)})
-    .catch((e)=>console.log(e))
-  }
+  const login = (e) => {
+    e.preventDefault();
+    Axios.post('http://localhost:3001/login', { empId: empId, password: password })
+        .then((response) => {
+          setresponseMsg(response.data);
+        })
+        .catch((error) => {
+            if (error.response) {
+                setresponseMsg(error.response.data);
+            } else if (error.request) {
+                setresponseMsg("No response from server");
+            } else {
+                setresponseMsg("Error: " + error.message);
+            }
+        });
+};
 
   return (
     <div className='d-flex vh-100 justify-content-center align-items-center bg-dark'>
