@@ -15,5 +15,5 @@ const empSchema=new mongoose.Schema({
     emergencyNumber:{type:String,required:false}
 })
 
-const empModel=mongoose.model("Employees",empSchema);
+const empModel=mongoose.model("employees",empSchema);
 export default empModel;
