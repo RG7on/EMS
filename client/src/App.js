@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Rejester from './components/Rejester';
 import {Routes,Route} from 'react-router-dom';
+import EmpSearch from './components/EmpSearch';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/rejester" element={<Rejester />} />
+        <Route path="/search" element={<EmpSearch />} />
       </Routes>
     </div>
       <Footer/>

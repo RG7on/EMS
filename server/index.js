@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import model from './Models/User.js';
+import empModel from './Models/Emp.js';
 
 const app = express();
 app.use(cors());
@@ -48,3 +49,15 @@ app.post("/login", async (req, res) => {
         res.status(500).send('An error occurred');
     }
 });
+
+
+///fetch all employees by data
+app.get("/fetchEmployee/:empId",async(req,res)=>{
+    try{
+    const id=req.params.empId
+    const employee=await empModel.find({empId:id})
+    res.send({employee})}
+    catch(e){
+        console.log(e)
+    }
+})
