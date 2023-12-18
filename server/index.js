@@ -52,11 +52,31 @@ app.post("/login", async (req, res) => {
 
 
 ///fetch all employees by data
-app.get("/fetchEmployee/:empId",async(req,res)=>{
+// app.get("/fetchEmployee/:empId",async(req,res)=>{
+//     try{
+//     const id=req.params.empId
+//     const employee=await empModel.find({empId:id})
+//     res.send({employee})}
+//     catch(e){
+//         console.log(e)
+//     }
+// })
+
+app.get("/fetchEmployee",async(req,res)=>{
     try{
-    const id=req.params.empId
-    const employee=await empModel.find({empId:id})
-    res.send({employee})}
+        const { empId, firstName, lastName, department } = req.query;
+
+        // Build a query object based on the provided parameters
+        let query = {};
+        if (empId) query.empId = empId;
+        if (firstName) query.firstName = firstName;
+        if (lastName) query.lastName = lastName;
+        if (department) query.dept = department;
+
+        // Find employees that match the query
+        const employees = await empModel.find(query);
+
+        res.send({ employees });}
     catch(e){
         console.log(e)
     }
