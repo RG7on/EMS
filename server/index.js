@@ -64,7 +64,7 @@ app.post("/login", async (req, res) => {
 
 app.get("/fetchEmployee",async(req,res)=>{
     try{
-        const { empId, firstName, lastName, department } = req.query;
+        const { empId, firstName, lastName, department ,gender} = req.query;
 
         // Build a query object based on the provided parameters
         let query = {};
@@ -72,6 +72,7 @@ app.get("/fetchEmployee",async(req,res)=>{
         if (firstName) query.firstName = firstName;
         if (lastName) query.lastName = lastName;
         if (department) query.dept = department;
+        if(gender) query.gender=gender;
 
         // Find employees that match the query
         const employees = await empModel.find(query);

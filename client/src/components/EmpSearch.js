@@ -13,7 +13,8 @@ function EmpSearch() {
                 empId:empId,
                 firstName:firstName,
                 lastName:lastName,
-                department:department
+                department:department,
+                gender:gender
             }
         })
         .then((res)=>
@@ -35,10 +36,10 @@ function EmpSearch() {
         <option selected>Choose Department</option>
         </select>
         <div class="form-check m-1">
-        <input type='radio' className='form-check-input' value="male"/>Male
+        <input type='radio' className='form-check-input' name='gender' value="Male" onClick={(e)=>{setGender(e.target.value)}}/>Male
         </div>
         <div class="form-check m-1">
-        <input type='radio' className='form-check-input' value="female"/>Female
+        <input type='radio' className='form-check-input' name='gender' value="Female" onClick={(e)=>{setGender(e.target.value)}}/>Female
         </div>
         <input type="button" value="Search" onClick={fetchEmps} className="btn btn-primary m-1"/>
         </div>
