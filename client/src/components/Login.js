@@ -1,16 +1,18 @@
 import React,{useState} from 'react'
 import Axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 function Login() {
   const [empId,setEmpId] = useState('');
   const [password,setPassword] = useState('');
   const [responseMsg, setresponseMsg] = useState("");
-
+  const navigate=useNavigate()
   //http request
   const login = (e) => {
     e.preventDefault();
     Axios.post('http://localhost:3001/login', { empId: empId, password: password })
         .then((response) => {
           setresponseMsg(response.data);
+          navigate("/home")
         })
         .catch((error) => {
             if (error.response) {
