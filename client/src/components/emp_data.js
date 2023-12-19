@@ -4,7 +4,7 @@ export const employees = [
         firstName: "Ahmed",
         lastName: "Al Said",
         gender: "Male",
-        position: "Internist",
+        position: "General Practitioner",
         department: "General Medicine",
         contact: {
             email: "ahmed.alsaid@examplehospital.om",
@@ -47,7 +47,7 @@ export const employees = [
         firstName: "Maryam",
         lastName: "Al Harthy",
         gender: "Female",
-        position: "Pediatric Nurse",
+        position: "Nurse",
         department: "Pediatrics",
         contact: {
             email: "maryam.alharthy@examplehospital.om",
@@ -90,7 +90,7 @@ export const employees = [
         firstName: "Khalid",
         lastName: "Al Busaidi",
         gender: "Male",
-        position: "Diagnostic Radiographer",
+        position: "Radiologist",
         department: "Radiology",
         contact: {
             email: "khalid.albusaidi@examplehospital.om",
@@ -133,8 +133,8 @@ export const employees = [
         firstName: "Huda",
         lastName: "Al Balushi",
         gender: "Female",
-        position: "Critical Care Nurse",
-        department: "Intensive Care Unit (ICU)",
+        position: "Lab Technician",
+        department: "Pathology",
         contact: {
             email: "huda.albalushi@examplehospital.om",
             phone: "+968-7504-4001"
@@ -176,8 +176,8 @@ export const employees = [
         firstName: "Fatima",
         lastName: "Al Zahabi",
         gender: "Female",
-        position: "Surgical Nurse",
-        department: "Surgery",
+        position: "Dietitian",
+        department: "Nutrition and Dietetics",
         contact: {
             email: "fatima.alzahabi@examplehospital.om",
             phone: "+968-7505-5001"
@@ -219,8 +219,8 @@ export const employees = [
         firstName: "Yousef",
         lastName: "Al Nabhani",
         gender: "Male",
-        position: "Emergency Physician",
-        department: "Emergency Department (ED)",
+        position: "Anesthesiologist",
+        department: "Anesthesiology",
         contact: {
             email: "yousef.alnabhani@examplehospital.om",
             phone: "+968-7506-6001"
@@ -262,8 +262,8 @@ export const employees = [
         firstName: "Noor",
         lastName: "Al Habsi",
         gender: "Female",
-        position: "Surgical Technician",
-        department: "Surgery",
+        position: "Medical Secretary",
+        department: "Administration",
         contact: {
             email: "noor.alhabsi@examplehospital.om",
             phone: "+968-7507-7001"
@@ -305,8 +305,8 @@ export const employees = [
         firstName: "Salem",
         lastName: "Al Maktoumi",
         gender: "Male",
-        position: "Radiologic Technologist",
-        department: "Radiology",
+        position: "Healthcare Assistant",
+        department: "Geriatric Care",
         contact: {
             email: "salem.almaktoumi@examplehospital.om",
             phone: "+968-7508-8001"
@@ -348,8 +348,8 @@ export const employees = [
         firstName: "Hana",
         lastName: "Al Riyami",
         gender: "Female",
-        position: "ICU Physician",
-        department: "Intensive Care Unit (ICU)",
+        position: "Cardiologist",
+        department: "Cardiology",
         contact: {
             email: "hana.alriyami@examplehospital.om",
             phone: "+968-7509-9001"
@@ -391,8 +391,8 @@ export const employees = [
         firstName: "Ali",
         lastName: "Al Jabri",
         gender: "Male",
-        position: "Family Medicine Physician",
-        department: "General Medicine",
+        position: "IT Specialist",
+        department: "Information Technology",
         contact: {
             email: "ali.aljabri@examplehospital.om",
             phone: "+968-7510-1001"
@@ -434,8 +434,8 @@ export const employees = [
         firstName: "Fatma",
         lastName: "Al Kindi",
         gender: "Female",
-        position: "Child Life Specialist",
-        department: "Pediatrics",
+        position: "Physiotherapist",
+        department: "Rehabilitation",
         contact: {
             email: "fatma.alkindi@examplehospital.om",
             phone: "+968-7511-1101"
@@ -477,8 +477,8 @@ export const employees = [
         firstName: "Mohammed",
         lastName: "Al Busaidi",
         gender: "Male",
-        position: "Emergency Room Nurse",
-        department: "Emergency Department (ED)",
+        position: "Hospital Security Officer",
+        department: "Security",
         contact: {
             email: "mohammed.albusaidi@examplehospital.om",
             phone: "+968-7512-1201"
@@ -520,8 +520,8 @@ export const employees = [
         firstName: "Aisha",
         lastName: "Al Wahaibi",
         gender: "Female",
-        position: "Pediatrician",
-        department: "Pediatrics",
+        position: "Medical Records Clerk",
+        department: "Records",
         contact: {
             email: "aisha.alwahaibi@examplehospital.om",
             phone: "+968-7513-1301"
@@ -563,8 +563,8 @@ export const employees = [
         firstName: "Hassan",
         lastName: "Al Ghafri",
         gender: "Male",
-        position: "Respiratory Therapist",
-        department: "Intensive Care Unit (ICU)",
+        position: "Hospital Cleaner",
+        department: "Housekeeping",
         contact: {
             email: "hassan.alghafri@examplehospital.om",
             phone: "+968-7514-1401"
@@ -606,8 +606,8 @@ export const employees = [
         firstName: "Lubna",
         lastName: "Al Jabri",
         gender: "Female",
-        position: "General Practitioner",
-        department: "General Medicine",
+        position: "Human Resources Manager",
+        department: "Human Resources",
         contact: {
             email: "lubna.aljabri@examplehospital.om",
             phone: "+968-7515-1501"
@@ -649,8 +649,8 @@ export const employees = [
         firstName: "Khalid",
         lastName: "Al Maamari",
         gender: "Male",
-        position: "Orthopedic Surgeon",
-        department: "Surgery",
+        position: "Biomedical Engineer",
+        department: "Biomedical Engineering",
         contact: {
             email: "khalid.almaamari@examplehospital.om",
             phone: "+968-7516-1601"
@@ -692,8 +692,8 @@ export const employees = [
         firstName: "Sara",
         lastName: "Al Harasi",
         gender: "Female",
-        position: "Radiologist",
-        department: "Radiology",
+        position: "Oncologist",
+        department: "Oncology",
         contact: {
             email: "sara.alharasi@examplehospital.om",
             phone: "+968-7517-1701"
@@ -736,7 +736,7 @@ export const employees = [
         lastName: "Al Shukaili",
         gender: "Male",
         position: "Emergency Medical Technician",
-        department: "Emergency Department (ED)",
+        department: "Emergency",
         contact: {
             email: "amir.alshukaili@examplehospital.om",
             phone: "+968-7518-1801"
@@ -778,8 +778,8 @@ export const employees = [
         firstName: "Layla",
         lastName: "Al Hashmi",
         gender: "Female",
-        position: "Neonatal Nurse",
-        department: "Pediatrics",
+        position: "Clinical Psychologist",
+        department: "Psychiatry",
         contact: {
             email: "layla.alhashmi@examplehospital.om",
             phone: "+968-7519-1901"
@@ -821,8 +821,8 @@ export const employees = [
         firstName: "Abdullah",
         lastName: "Al Raisi",
         gender: "Male",
-        position: "Intensivist",
-        department: "Intensive Care Unit (ICU)",
+        position: "Ultrasound Technician",
+        department: "Radiology",
         contact: {
             email: "abdullah.alraisi@examplehospital.om",
             phone: "+968-7520-2001"
@@ -864,7 +864,7 @@ export const employees = [
         firstName: "Hamed",
         lastName: "Al Khatri",
         gender: "Male",
-        position: "Anesthesiologist",
+        position: "Orthopedic Surgeon",
         department: "Surgery",
         contact: {
             email: "hamed.alkhatri@examplehospital.om",
@@ -907,8 +907,8 @@ export const employees = [
         firstName: "Zahra",
         lastName: "Al Mamari",
         gender: "Female",
-        position: "Ultrasound Technician",
-        department: "Radiology",
+        position: "Dental Hygienist",
+        department: "Dentistry",
         contact: {
             email: "zahra.almamari@examplehospital.om",
             phone: "+968-7522-2201"
@@ -950,8 +950,8 @@ export const employees = [
         firstName: "Yasir",
         lastName: "Al Barwani",
         gender: "Male",
-        position: "Healthcare Administrator",
-        department: "General Medicine",
+        position: "IT Support Technician",
+        department: "Information Technology",
         contact: {
             email: "yasir.albarwani@examplehospital.om",
             phone: "+968-7523-2301"
@@ -993,8 +993,8 @@ export const employees = [
         firstName: "Muna",
         lastName: "Al Hashar",
         gender: "Female",
-        position: "ER Registrar",
-        department: "Emergency Department (ED)",
+        position: "Medical Coder",
+        department: "Billing",
         contact: {
             email: "muna.alhashar@examplehospital.om",
             phone: "+968-7524-2401"
@@ -1036,8 +1036,8 @@ export const employees = [
         firstName: "Ali",
         lastName: "Al Zubair",
         gender: "Male",
-        position: "General Practitioner",
-        department: "General Medicine",
+        position: "Electrocardiogram Technician",
+        department: "Cardiology",
         contact: {
             email: "ali.alzubair@examplehospital.om",
             phone: "+968-7525-2501"
@@ -1079,8 +1079,8 @@ export const employees = [
         firstName: "Nadia",
         lastName: "Al Saidi",
         gender: "Female",
-        position: "Registered Nurse",
-        department: "General Medicine",
+        position: "Respiratory Therapist",
+        department: "Respiratory Therapy",
         contact: {
             email: "nadia.alsaidi@examplehospital.om",
             phone: "+968-7526-2601"
@@ -1122,8 +1122,8 @@ export const employees = [
     firstName: "Sami",
     lastName: "Al Kharusi",
     gender: "Male",
-    position: "ICU Nurse",
-    department: "Intensive Care Unit (ICU)",
+    position: "Hospital Pharmacist",
+    department: "Pharmacy",
     contact: {
         email: "sami.alkharusi@examplehospital.om",
         phone: "+968-7527-2701"
@@ -1165,7 +1165,7 @@ export const employees = [
     firstName: "Fatimah",
     lastName: "Al Balushi",
     gender: "Female",
-    position: "Pediatric Nurse Practitioner",
+    position: "Pediatric Nurse",
     department: "Pediatrics",
     contact: {
         email: "fatimah.albalushi@examplehospital.om",
@@ -1208,7 +1208,7 @@ export const employees = [
     firstName: "Salim",
     lastName: "Al Habsi",
     gender: "Male",
-    position: "MRI Technician",
+    position: "Radiology Manager",
     department: "Radiology",
     contact: {
         email: "salim.alhabsi@examplehospital.om",
@@ -1251,8 +1251,8 @@ export const employees = [
     firstName: "Amani",
     lastName: "Al Nabhani",
     gender: "Female",
-    position: "Surgical Assistant",
-    department: "Surgery",
+    position: "Anesthesia Technician",
+    department: "Anesthesiology",
     contact: {
         email: "amani.alnabhani@examplehospital.om",
         phone: "+968-7530-3001"
@@ -1294,8 +1294,8 @@ export const employees = [
     firstName: "Zainab",
     lastName: "Al Riyami",
     gender: "Female",
-    position: "Medical Assistant",
-    department: "General Medicine",
+    position: "Medical Laboratory Scientist",
+    department: "Pathology",
     contact: {
         email: "zainab.alriyami@examplehospital.om",
         phone: "+968-7531-3101"
@@ -1337,8 +1337,8 @@ export const employees = [
     firstName: "Khalifa",
     lastName: "Al Amri",
     gender: "Male",
-    position: "ER Nurse",
-    department: "Emergency Department (ED)",
+    position: "Healthcare Administrator",
+    department: "Administration",
     contact: {
         email: "khalifa.alamri@examplehospital.om",
         phone: "+968-7532-3201"
@@ -1380,8 +1380,8 @@ export const employees = [
     firstName: "Huda",
     lastName: "Al Ghassani",
     gender: "Female",
-    position: "Critical Care Specialist",
-    department: "Intensive Care Unit (ICU)",
+    position: "Ophthalmologist",
+    department: "Ophthalmology",
     contact: {
         email: "huda.alghassani@examplehospital.om",
         phone: "+968-7533-3301"
@@ -1423,8 +1423,8 @@ export const employees = [
     firstName: "Saud",
     lastName: "Al Busaidi",
     gender: "Male",
-    position: "Pediatric Emergency Physician",
-    department: "Pediatrics",
+    position: "Emergency Room Physician",
+    department: "Emergency",
     contact: {
         email: "saud.albusaidi@examplehospital.om",
         phone: "+968-7534-3401"
@@ -1466,8 +1466,8 @@ export const employees = [
     firstName: "Noor",
     lastName: "Al Harthy",
     gender: "Female",
-    position: "Radiology Nurse",
-    department: "Radiology",
+    position: "Speech Therapist",
+    department: "Rehabilitation",
     contact: {
         email: "noor.alharthy@examplehospital.om",
         phone: "+968-7535-3501"
@@ -1509,8 +1509,8 @@ export const employees = [
     firstName: "Ayesha",
     lastName: "Al Qasmi",
     gender: "Female",
-    position: "Primary Care Physician",
-    department: "General Medicine",
+    position: "Dermatologist",
+    department: "Dermatology",
     contact: {
         email: "ayesha.alqasmi@examplehospital.om",
         phone: "+968-7536-3601"
@@ -1552,8 +1552,8 @@ export const employees = [
         firstName: "Yousef",
         lastName: "Al Jabri",
         gender: "Male",
-        position: "Cardiothoracic Surgeon",
-        department: "Surgery",
+        position: "Cardiac Surgeon",
+        department: "Cardiology",
         contact: {
             email: "yousef.aljabri@examplehospital.om",
             phone: "+968-7537-3701"
@@ -1595,8 +1595,8 @@ export const employees = [
         firstName: "Amal",
         lastName: "Al Badi",
         gender: "Female",
-        position: "ICU Technician",
-        department: "Intensive Care Unit (ICU)",
+        position: "Clinical Laboratory Technician",
+        department: "Laboratory",
         contact: {
             email: "amal.albadi@examplehospital.om",
             phone: "+968-7538-3801"
@@ -1638,8 +1638,8 @@ export const employees = [
         firstName: "Majid",
         lastName: "Al Salmi",
         gender: "Male",
-        position: "Clinic Physician",
-        department: "General Medicine",
+        position: "Gastroenterologist",
+        department: "Gastroenterology",
         contact: {
             email: "majid.alsalmi@examplehospital.om",
             phone: "+968-7539-3901"
@@ -1681,8 +1681,8 @@ export const employees = [
         firstName: "Hanan",
         lastName: "Al Habsi",
         gender: "Female",
-        position: "Child Development Specialist",
-        department: "Pediatrics",
+        position: "Occupational Therapist",
+        department: "Rehabilitation",
         contact: {
             email: "hanan.alhabsi@examplehospital.om",
             phone: "+968-7540-4001"
