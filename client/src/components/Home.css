@@ -1,0 +1,26 @@
+/* For larger screens */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chart-container {
+    flex: 1;
+    min-width: 300px; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 600px) { /* Adjust breakpoint as needed */
+    .home-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chart-container {
+        max-width: 100%;
+        min-width: 0; /* Allow chart container to shrink on small screens */
+    }
+}
