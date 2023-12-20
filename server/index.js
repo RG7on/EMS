@@ -18,19 +18,23 @@ app.listen(3001, () => {
 });
 
 app.post("/addEmp", async (req, res) => {
-    const Emp = new model({
-        empName: req.body.empName,
-        empId: req.body.empId,
-        password: req.body.password
-    });
+    const { empName, empId, password } = req.body;
 
     try {
+        const existingEmp = await model.findOne({ empId: empId });
+        if (existingEmp) {
+            return res.status(400).send('Employee ID already exists');
+        }
+
+        const Emp = new model({ empName, empId, password });
         await Emp.save();
-        res.send('Document saved successfully');
+        res.send('user added successfully');
     } catch (error) {
+        console.error('Error adding employee:', error);
         res.status(500).send(error.message);
     }
 });
+
 
 app.post("/login", async (req, res) => {
     try {

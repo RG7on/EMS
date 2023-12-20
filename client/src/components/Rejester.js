@@ -17,8 +17,12 @@ export default function Register() {
             setResponseMsg(response.data);
         })
         .catch((error) => {
-            console.error(error);
-            setResponseMsg("Error occurred while saving data");
+            if (error.response && error.response.status === 400) {
+                setResponseMsg(error.response.data);
+            } else {
+                console.error(error);
+                setResponseMsg("Error occurred while saving data");
+            }
         });
     };
 
