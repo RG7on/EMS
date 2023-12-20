@@ -4,7 +4,7 @@ export const employees = [
         firstName: "Ahmed",
         lastName: "Al Said",
         gender: "Male",
-        position: "General Practitioner",
+        position: "Internist",
         department: "General Medicine",
         contact: {
             email: "ahmed.alsaid@examplehospital.om",
@@ -47,7 +47,7 @@ export const employees = [
         firstName: "Maryam",
         lastName: "Al Harthy",
         gender: "Female",
-        position: "Nurse",
+        position: "Pediatric Nurse",
         department: "Pediatrics",
         contact: {
             email: "maryam.alharthy@examplehospital.om",
@@ -90,7 +90,7 @@ export const employees = [
         firstName: "Khalid",
         lastName: "Al Busaidi",
         gender: "Male",
-        position: "Radiologist",
+        position: "Diagnostic Radiographer",
         department: "Radiology",
         contact: {
             email: "khalid.albusaidi@examplehospital.om",
@@ -133,8 +133,8 @@ export const employees = [
         firstName: "Huda",
         lastName: "Al Balushi",
         gender: "Female",
-        position: "Lab Technician",
-        department: "Pathology",
+        position: "Critical Care Nurse",
+        department: "Intensive Care Unit (ICU)",
         contact: {
             email: "huda.albalushi@examplehospital.om",
             phone: "+968-7504-4001"
@@ -176,8 +176,8 @@ export const employees = [
         firstName: "Fatima",
         lastName: "Al Zahabi",
         gender: "Female",
-        position: "Dietitian",
-        department: "Nutrition and Dietetics",
+        position: "Surgical Nurse",
+        department: "Surgery",
         contact: {
             email: "fatima.alzahabi@examplehospital.om",
             phone: "+968-7505-5001"
@@ -219,8 +219,8 @@ export const employees = [
         firstName: "Yousef",
         lastName: "Al Nabhani",
         gender: "Male",
-        position: "Anesthesiologist",
-        department: "Anesthesiology",
+        position: "Emergency Physician",
+        department: "Emergency Department (ED)",
         contact: {
             email: "yousef.alnabhani@examplehospital.om",
             phone: "+968-7506-6001"
@@ -262,8 +262,8 @@ export const employees = [
         firstName: "Noor",
         lastName: "Al Habsi",
         gender: "Female",
-        position: "Medical Secretary",
-        department: "Administration",
+        position: "Surgical Technician",
+        department: "Surgery",
         contact: {
             email: "noor.alhabsi@examplehospital.om",
             phone: "+968-7507-7001"
@@ -305,8 +305,8 @@ export const employees = [
         firstName: "Salem",
         lastName: "Al Maktoumi",
         gender: "Male",
-        position: "Healthcare Assistant",
-        department: "Geriatric Care",
+        position: "Radiologic Technologist",
+        department: "Radiology",
         contact: {
             email: "salem.almaktoumi@examplehospital.om",
             phone: "+968-7508-8001"
@@ -348,8 +348,8 @@ export const employees = [
         firstName: "Hana",
         lastName: "Al Riyami",
         gender: "Female",
-        position: "Cardiologist",
-        department: "Cardiology",
+        position: "ICU Physician",
+        department: "Intensive Care Unit (ICU)",
         contact: {
             email: "hana.alriyami@examplehospital.om",
             phone: "+968-7509-9001"
@@ -391,8 +391,8 @@ export const employees = [
         firstName: "Ali",
         lastName: "Al Jabri",
         gender: "Male",
-        position: "IT Specialist",
-        department: "Information Technology",
+        position: "Family Medicine Physician",
+        department: "General Medicine",
         contact: {
             email: "ali.aljabri@examplehospital.om",
             phone: "+968-7510-1001"
@@ -434,8 +434,8 @@ export const employees = [
         firstName: "Fatma",
         lastName: "Al Kindi",
         gender: "Female",
-        position: "Physiotherapist",
-        department: "Rehabilitation",
+        position: "Child Life Specialist",
+        department: "Pediatrics",
         contact: {
             email: "fatma.alkindi@examplehospital.om",
             phone: "+968-7511-1101"
@@ -477,8 +477,8 @@ export const employees = [
         firstName: "Mohammed",
         lastName: "Al Busaidi",
         gender: "Male",
-        position: "Hospital Security Officer",
-        department: "Security",
+        position: "Emergency Room Nurse",
+        department: "Emergency Department (ED)",
         contact: {
             email: "mohammed.albusaidi@examplehospital.om",
             phone: "+968-7512-1201"
@@ -520,8 +520,8 @@ export const employees = [
         firstName: "Aisha",
         lastName: "Al Wahaibi",
         gender: "Female",
-        position: "Medical Records Clerk",
-        department: "Records",
+        position: "Pediatrician",
+        department: "Pediatrics",
         contact: {
             email: "aisha.alwahaibi@examplehospital.om",
             phone: "+968-7513-1301"
@@ -563,8 +563,8 @@ export const employees = [
         firstName: "Hassan",
         lastName: "Al Ghafri",
         gender: "Male",
-        position: "Hospital Cleaner",
-        department: "Housekeeping",
+        position: "Respiratory Therapist",
+        department: "Intensive Care Unit (ICU)",
         contact: {
             email: "hassan.alghafri@examplehospital.om",
             phone: "+968-7514-1401"
@@ -606,8 +606,8 @@ export const employees = [
         firstName: "Lubna",
         lastName: "Al Jabri",
         gender: "Female",
-        position: "Human Resources Manager",
-        department: "Human Resources",
+        position: "General Practitioner",
+        department: "General Medicine",
         contact: {
             email: "lubna.aljabri@examplehospital.om",
             phone: "+968-7515-1501"
@@ -649,8 +649,8 @@ export const employees = [
         firstName: "Khalid",
         lastName: "Al Maamari",
         gender: "Male",
-        position: "Biomedical Engineer",
-        department: "Biomedical Engineering",
+        position: "Orthopedic Surgeon",
+        department: "Surgery",
         contact: {
             email: "khalid.almaamari@examplehospital.om",
             phone: "+968-7516-1601"
@@ -692,8 +692,8 @@ export const employees = [
         firstName: "Sara",
         lastName: "Al Harasi",
         gender: "Female",
-        position: "Oncologist",
-        department: "Oncology",
+        position: "Radiologist",
+        department: "Radiology",
         contact: {
             email: "sara.alharasi@examplehospital.om",
             phone: "+968-7517-1701"
@@ -736,7 +736,7 @@ export const employees = [
         lastName: "Al Shukaili",
         gender: "Male",
         position: "Emergency Medical Technician",
-        department: "Emergency",
+        department: "Emergency Department (ED)",
         contact: {
             email: "amir.alshukaili@examplehospital.om",
             phone: "+968-7518-1801"
@@ -778,8 +778,8 @@ export const employees = [
         firstName: "Layla",
         lastName: "Al Hashmi",
         gender: "Female",
-        position: "Clinical Psychologist",
-        department: "Psychiatry",
+        position: "Neonatal Nurse",
+        department: "Pediatrics",
         contact: {
             email: "layla.alhashmi@examplehospital.om",
             phone: "+968-7519-1901"
@@ -821,8 +821,8 @@ export const employees = [
         firstName: "Abdullah",
         lastName: "Al Raisi",
         gender: "Male",
-        position: "Ultrasound Technician",
-        department: "Radiology",
+        position: "Intensivist",
+        department: "Intensive Care Unit (ICU)",
         contact: {
             email: "abdullah.alraisi@examplehospital.om",
             phone: "+968-7520-2001"
@@ -864,7 +864,7 @@ export const employees = [
         firstName: "Hamed",
         lastName: "Al Khatri",
         gender: "Male",
-        position: "Orthopedic Surgeon",
+        position: "Anesthesiologist",
         department: "Surgery",
         contact: {
             email: "hamed.alkhatri@examplehospital.om",
@@ -907,8 +907,8 @@ export const employees = [
         firstName: "Zahra",
         lastName: "Al Mamari",
         gender: "Female",
-        position: "Dental Hygienist",
-        department: "Dentistry",
+        position: "Ultrasound Technician",
+        department: "Radiology",
         contact: {
             email: "zahra.almamari@examplehospital.om",
             phone: "+968-7522-2201"
@@ -950,8 +950,8 @@ export const employees = [
         firstName: "Yasir",
         lastName: "Al Barwani",
         gender: "Male",
-        position: "IT Support Technician",
-        department: "Information Technology",
+        position: "Healthcare Administrator",
+        department: "General Medicine",
         contact: {
             email: "yasir.albarwani@examplehospital.om",
             phone: "+968-7523-2301"
@@ -993,8 +993,8 @@ export const employees = [
         firstName: "Muna",
         lastName: "Al Hashar",
         gender: "Female",
-        position: "Medical Coder",
-        department: "Billing",
+        position: "ER Registrar",
+        department: "Emergency Department (ED)",
         contact: {
             email: "muna.alhashar@examplehospital.om",
             phone: "+968-7524-2401"
@@ -1036,8 +1036,8 @@ export const employees = [
         firstName: "Ali",
         lastName: "Al Zubair",
         gender: "Male",
-        position: "Electrocardiogram Technician",
-        department: "Cardiology",
+        position: "General Practitioner",
+        department: "General Medicine",
         contact: {
             email: "ali.alzubair@examplehospital.om",
             phone: "+968-7525-2501"
@@ -1079,8 +1079,8 @@ export const employees = [
         firstName: "Nadia",
         lastName: "Al Saidi",
         gender: "Female",
-        position: "Respiratory Therapist",
-        department: "Respiratory Therapy",
+        position: "Registered Nurse",
+        department: "General Medicine",
         contact: {
             email: "nadia.alsaidi@examplehospital.om",
             phone: "+968-7526-2601"
@@ -1122,8 +1122,8 @@ export const employees = [
     firstName: "Sami",
     lastName: "Al Kharusi",
     gender: "Male",
-    position: "Hospital Pharmacist",
-    department: "Pharmacy",
+    position: "ICU Nurse",
+    department: "Intensive Care Unit (ICU)",
     contact: {
         email: "sami.alkharusi@examplehospital.om",
         phone: "+968-7527-2701"
@@ -1165,7 +1165,7 @@ export const employees = [
     firstName: "Fatimah",
     lastName: "Al Balushi",
     gender: "Female",
-    position: "Pediatric Nurse",
+    position: "Pediatric Nurse Practitioner",
     department: "Pediatrics",
     contact: {
         email: "fatimah.albalushi@examplehospital.om",
@@ -1208,7 +1208,7 @@ export const employees = [
     firstName: "Salim",
     lastName: "Al Habsi",
     gender: "Male",
-    position: "Radiology Manager",
+    position: "MRI Technician",
     department: "Radiology",
     contact: {
         email: "salim.alhabsi@examplehospital.om",
@@ -1251,8 +1251,8 @@ export const employees = [
     firstName: "Amani",
     lastName: "Al Nabhani",
     gender: "Female",
-    position: "Anesthesia Technician",
-    department: "Anesthesiology",
+    position: "Surgical Assistant",
+    department: "Surgery",
     contact: {
         email: "amani.alnabhani@examplehospital.om",
         phone: "+968-7530-3001"
@@ -1294,8 +1294,8 @@ export const employees = [
     firstName: "Zainab",
     lastName: "Al Riyami",
     gender: "Female",
-    position: "Medical Laboratory Scientist",
-    department: "Pathology",
+    position: "Medical Assistant",
+    department: "General Medicine",
     contact: {
         email: "zainab.alriyami@examplehospital.om",
         phone: "+968-7531-3101"
@@ -1328,7 +1328,7 @@ export const employees = [
         Attendance_and_Reliability: 5,
         Ethical_Conduct_and_Professionalism: 5,
         Health_and_Safety_Compliance: 5,
-        verall_Performance_Rating: 4.4,
+        Overall_Performance_Rating: 4.4,
         Evaluator_Comments: "Zainab is proficient in laboratory procedures and consistently demonstrates a high level of professionalism."
     }
 },
@@ -1337,8 +1337,8 @@ export const employees = [
     firstName: "Khalifa",
     lastName: "Al Amri",
     gender: "Male",
-    position: "Healthcare Administrator",
-    department: "Administration",
+    position: "ER Nurse",
+    department: "Emergency Department (ED)",
     contact: {
         email: "khalifa.alamri@examplehospital.om",
         phone: "+968-7532-3201"
@@ -1371,7 +1371,7 @@ export const employees = [
         Attendance_and_Reliability: 5,
         Ethical_Conduct_and_Professionalism: 5,
         Health_and_Safety_Compliance: "N/A",
-        verall_Performance_Rating: 4.9,
+        Overall_Performance_Rating: 4.9,
         Evaluator_Comments: "Khalifa excels in managing administrative tasks and has shown outstanding leadership in healthcare administration."
     }
 },
@@ -1380,8 +1380,8 @@ export const employees = [
     firstName: "Huda",
     lastName: "Al Ghassani",
     gender: "Female",
-    position: "Ophthalmologist",
-    department: "Ophthalmology",
+    position: "Critical Care Specialist",
+    department: "Intensive Care Unit (ICU)",
     contact: {
         email: "huda.alghassani@examplehospital.om",
         phone: "+968-7533-3301"
@@ -1414,7 +1414,7 @@ export const employees = [
         Attendance_and_Reliability: 5,
         Ethical_Conduct_and_Professionalism: 5,
         Health_and_Safety_Compliance: 5,
-        verall_Performance_Rating: 4.7,
+        Overall_Performance_Rating: 4.7,
         Evaluator_Comments: "Huda is highly skilled in ophthalmology, providing exceptional care with great attention to detail."
     }
 },
@@ -1423,8 +1423,8 @@ export const employees = [
     firstName: "Saud",
     lastName: "Al Busaidi",
     gender: "Male",
-    position: "Emergency Room Physician",
-    department: "Emergency",
+    position: "Pediatric Emergency Physician",
+    department: "Pediatrics",
     contact: {
         email: "saud.albusaidi@examplehospital.om",
         phone: "+968-7534-3401"
@@ -1457,7 +1457,7 @@ export const employees = [
         Attendance_and_Reliability: 5,
         Ethical_Conduct_and_Professionalism: 5,
         Health_and_Safety_Compliance: 5,
-        verall_Performance_Rating: 4.8,
+        Overall_Performance_Rating: 4.8,
         Evaluator_Comments: "Saud demonstrates exceptional skills in emergency medicine, with excellent decision-making and patient care."
     }
 },
@@ -1466,8 +1466,8 @@ export const employees = [
     firstName: "Noor",
     lastName: "Al Harthy",
     gender: "Female",
-    position: "Speech Therapist",
-    department: "Rehabilitation",
+    position: "Radiology Nurse",
+    department: "Radiology",
     contact: {
         email: "noor.alharthy@examplehospital.om",
         phone: "+968-7535-3501"
@@ -1500,7 +1500,7 @@ export const employees = [
         Attendance_and_Reliability: 5,
         Ethical_Conduct_and_Professionalism: 4,
         Health_and_Safety_Compliance: 4,
-        verall_Performance_Rating: 4.4,
+        Overall_Performance_Rating: 4.4,
         Evaluator_Comments: "Noor is highly effective in speech therapy, showing great compassion and skill in treating patients."
     }
 },
@@ -1509,8 +1509,8 @@ export const employees = [
     firstName: "Ayesha",
     lastName: "Al Qasmi",
     gender: "Female",
-    position: "Dermatologist",
-    department: "Dermatology",
+    position: "Primary Care Physician",
+    department: "General Medicine",
     contact: {
         email: "ayesha.alqasmi@examplehospital.om",
         phone: "+968-7536-3601"
@@ -1543,7 +1543,7 @@ export const employees = [
             Attendance_and_Reliability: 5,
             Ethical_Conduct_and_Professionalism: 5,
             Health_and_Safety_Compliance: 5,
-            verall_Performance_Rating: 4.7,
+            Overall_Performance_Rating: 4.7,
             Evaluator_Comments: "Ayesha is an excellent dermatologist with a strong ability to diagnose and treat skin conditions effectively."
         }
     },
@@ -1552,8 +1552,8 @@ export const employees = [
         firstName: "Yousef",
         lastName: "Al Jabri",
         gender: "Male",
-        position: "Cardiac Surgeon",
-        department: "Cardiology",
+        position: "Cardiothoracic Surgeon",
+        department: "Surgery",
         contact: {
             email: "yousef.aljabri@examplehospital.om",
             phone: "+968-7537-3701"
@@ -1586,7 +1586,7 @@ export const employees = [
             Attendance_and_Reliability: 5,
             Ethical_Conduct_and_Professionalism: 5,
             Health_and_Safety_Compliance: 5,
-            verall_Performance_Rating: 4.8,
+            Overall_Performance_Rating: 4.8,
             Evaluator_Comments: "Yousef is a highly skilled cardiac surgeon with excellent surgical outcomes and patient care."
         }
     },
@@ -1595,8 +1595,8 @@ export const employees = [
         firstName: "Amal",
         lastName: "Al Badi",
         gender: "Female",
-        position: "Clinical Laboratory Technician",
-        department: "Laboratory",
+        position: "ICU Technician",
+        department: "Intensive Care Unit (ICU)",
         contact: {
             email: "amal.albadi@examplehospital.om",
             phone: "+968-7538-3801"
@@ -1629,7 +1629,7 @@ export const employees = [
             Attendance_and_Reliability: 5,
             Ethical_Conduct_and_Professionalism: 4,
             Health_and_Safety_Compliance: 5,
-            verall_Performance_Rating: 4.3,
+            Overall_Performance_Rating: 4.3,
             Evaluator_Comments: "Amal is highly skilled in laboratory procedures, showcasing excellent time management and reliability."
         }
     },
@@ -1638,8 +1638,8 @@ export const employees = [
         firstName: "Majid",
         lastName: "Al Salmi",
         gender: "Male",
-        position: "Gastroenterologist",
-        department: "Gastroenterology",
+        position: "Clinic Physician",
+        department: "General Medicine",
         contact: {
             email: "majid.alsalmi@examplehospital.om",
             phone: "+968-7539-3901"
@@ -1672,7 +1672,7 @@ export const employees = [
             Attendance_and_Reliability: 5,
             Ethical_Conduct_and_Professionalism: 4,
             Health_and_Safety_Compliance: 5,
-            verall_Performance_Rating: 4.4,
+            Overall_Performance_Rating: 4.4,
             Evaluator_Comments: "Majid demonstrates excellent expertise in gastroenterology with strong patient care and diagnostic skills."
         }
     },
@@ -1681,8 +1681,8 @@ export const employees = [
         firstName: "Hanan",
         lastName: "Al Habsi",
         gender: "Female",
-        position: "Occupational Therapist",
-        department: "Rehabilitation",
+        position: "Child Development Specialist",
+        department: "Pediatrics",
         contact: {
             email: "hanan.alhabsi@examplehospital.om",
             phone: "+968-7540-4001"
@@ -1715,7 +1715,7 @@ export const employees = [
             Attendance_and_Reliability: 5,
             Ethical_Conduct_and_Professionalism: 4,
             Health_and_Safety_Compliance: 5,
-            verall_Performance_Rating: 4.4,
+            Overall_Performance_Rating: 4.4,
             Evaluator_Comments: "Hanan excels in providing effective occupational therapy, demonstrating a strong commitment to patient rehabilitation."
         }
     }
