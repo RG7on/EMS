@@ -36,7 +36,6 @@ app.post("/login", async (req, res) => {
     try {
         const user = await model.findOne({ empId: req.body.empId });
         if (user) {
-            // Check if the password matches
             if (req.body.password === user.password) {
                 res.send('Login successful');
             } else {
@@ -66,7 +65,6 @@ app.get("/fetchEmployee",async(req,res)=>{
     try{
         const { empId, firstName, lastName, department ,gender} = req.query;
 
-        // Build a query object based on the provided parameters
         let query = {};
         if (empId) query.empId = empId;
         if (firstName) query.firstName = firstName;
@@ -74,7 +72,6 @@ app.get("/fetchEmployee",async(req,res)=>{
         if (department) query.dept = department;
         if(gender) query.gender=gender;
 
-        // Find employees that match the query
         const employees = await empModel.find(query);
 
         res.send({ employees });}
@@ -82,3 +79,53 @@ app.get("/fetchEmployee",async(req,res)=>{
         console.log(e)
     }
 })
+
+app.get("/fetchUsers", async (req, res) => {
+    try {
+        const users = await model.find({});
+        res.json({ users });
+    } catch (error) {
+        console.error('Error fetching users:', error);
+        res.status(500).send('Error fetching users');
+    }
+});
+
+app.delete("/deleteUser/:userId", async (req, res) => {
+    const { userId } = req.params;
+
+    try {
+        const result = await model.findByIdAndDelete(userId);
+        if (result) {
+            res.send(`User with ID ${userId} deleted successfully.`);
+        } else {
+            res.status(404).send('User not found');
+        }
+    } catch (error) {
+        console.error('Error deleting user:', error);
+        res.status(500).send('Error deleting user');
+    }
+});
+
+app.put("/updateUser/:userId", async (req, res) => {
+    const { userId } = req.params;
+    const { newPassword } = req.body;
+
+    if (!newPassword) {
+        return res.status(400).send('New password is required');
+    }
+
+    try {
+        const user = await model.findById(userId);
+        if (!user) {
+            return res.status(404).send('User not found');
+        }
+
+        user.password = newPassword;
+        await user.save();
+
+        res.send('Password updated successfully');
+    } catch (error) {
+        console.error('Error updating user password:', error);
+        res.status(500).send('Error updating password');
+    }
+});

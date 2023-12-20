@@ -15,8 +15,12 @@ export default function Header() {
             <Link className="nav-link" to="/rejester">Register</Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/ManageUsers">Manage Users</Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/search">Search</Link>
           </li>
+          
         </ul>
       </div>
     </nav>

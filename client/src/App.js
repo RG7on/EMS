@@ -7,6 +7,7 @@ import {Routes,Route} from 'react-router-dom';
 import EmpSearch from './components/EmpSearch';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import ManageUsers from './components/ManageUsers';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Login />} />
         <Route path="/rejester" element={<Rejester />} />
+        <Route path="/ManageUsers" element={<ManageUsers/>} />
         <Route path="/search" element={<EmpSearch />} />
       </Routes>
       <Footer/>

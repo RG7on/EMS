@@ -6,7 +6,7 @@ function Login() {
   const [password,setPassword] = useState('');
   const [responseMsg, setresponseMsg] = useState("");
   const navigate=useNavigate()
-  //http request
+
   const login = (e) => {
     e.preventDefault();
     Axios.post('http://localhost:3001/login', { empId: empId, password: password })

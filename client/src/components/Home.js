@@ -1,10 +1,10 @@
 import React from 'react';
-import { employees } from './emp_data'; // Ensure correct path
+import { employees } from './emp_data';
 import { Pie, Bar } from 'react-chartjs-2';
-import './Home.css'; // Assuming you have a CSS file for styling
+import './Home.css';
 
 function Home() {
-    // Pie chart data: Gender distribution
+    // Pie chart
     const genderCounts = employees.reduce((acc, employee) => {
         acc[employee.gender] = (acc[employee.gender] || 0) + 1;
         return acc;
@@ -19,14 +19,13 @@ function Home() {
         }]
     };
 
-    // Bar chart data: Average performance rating per department
+    // Bar chart
     const departmentRatings = {};
     const departmentCounts = {};
     const commonOptions = {
       maintainAspectRatio: true,
-      aspectRatio: 1.5, // Adjust as needed
+      aspectRatio: 1.5,
       responsive: true,
-      // Add any other common options here
   };
 
     employees.forEach(employee => {
