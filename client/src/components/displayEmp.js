@@ -1,19 +1,24 @@
 import React from 'react'
-import emp_data from './emp_data.js'
-function displayEmp() {
+import {employees} from './emp_data.js'
+function DisplayEmp() {
   return (
     <div>
-        <table>
+        <h1 className='mb-3 mt-3'>Employees Data</h1>
+        <h2>Totoal Employees: {employees.length}</h2>
+        <table className='table table-bordered'>
     <thead>
         <tr><th>Name</th><th>Gender</th><th>Department</th><th>City</th></tr>
     </thead>
         
         {
-            emp_data.map((emp,index)=>{
+            employees.map((emp,index)=>{
                 return(
                     <tbody>
                         <tr key={index}>
-                            <td></td>
+                            <td>{emp.firstName} {emp.lastName}</td>
+                            <td>{emp.gender}</td>
+                            <td>{emp.department}</td>
+                            <td>{emp.address.city}</td>
                         </tr>
                     </tbody>
                 )
@@ -24,4 +29,4 @@ function displayEmp() {
   )
 }
 
-export default displayEmp
+export default DisplayEmp
