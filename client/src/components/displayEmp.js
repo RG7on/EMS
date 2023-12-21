@@ -1,5 +1,6 @@
 import React from 'react'
 import {employees} from './emp_data.js'
+import { Link } from 'react-router-dom'
 function DisplayEmp() {
   return (
     <div>
@@ -7,7 +8,7 @@ function DisplayEmp() {
         <h2>Totoal Employees: {employees.length}</h2>
         <table className='table table-bordered'>
     <thead>
-        <tr><th>Name</th><th>Gender</th><th>Department</th><th>City</th></tr>
+        <tr><th>Name</th><th>Gender</th><th>Department</th><th>City</th><th>Action</th></tr>
     </thead>
         
         {
@@ -19,6 +20,7 @@ function DisplayEmp() {
                             <td>{emp.gender}</td>
                             <td>{emp.department}</td>
                             <td>{emp.address.city}</td>
+                            <td><Link to=''>View</Link></td>
                         </tr>
                     </tbody>
                 )
