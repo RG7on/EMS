@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import ManageUsers from './components/ManageUsers';
 import DisplayEmp from './components/DisplayEmp';
+import MangeEmp from './components/MangeEmp';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/rejester" element={<Rejester />} />
         <Route path="/ManageUsers" element={<ManageUsers/>} />
         <Route path="/display" element={<DisplayEmp />} />
+        <Route path='/manageEmp' element={<MangeEmp/>}/>
       </Routes>
       <Footer/>
     </div>
