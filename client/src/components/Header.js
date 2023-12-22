@@ -18,7 +18,7 @@ export default function Header() {
             <Link className="nav-link" to="/ManageUsers">Manage Users</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/search">Search</Link>
+            <Link className="nav-link" to="/display">Mange Employees</Link>
           </li>
           
         </ul>

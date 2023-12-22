@@ -4,10 +4,14 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Rejester from './components/Rejester';
 import {Routes,Route} from 'react-router-dom';
-import EmpSearch from './components/EmpSearch';
+// import EmpSearch from './components/EmpSearch';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ManageUsers from './components/ManageUsers';
+import DisplayEmp from './components/DisplayEmp';
+import MangeEmp from './components/MangeEmp';
+
+
 
 function App() {
   return (
@@ -19,7 +23,8 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/rejester" element={<Rejester />} />
         <Route path="/ManageUsers" element={<ManageUsers/>} />
-        <Route path="/search" element={<EmpSearch />} />
+        <Route path="/display" element={<DisplayEmp />} />
+        <Route path='/manageEmp' element={<MangeEmp/>}/>
       </Routes>
       <Footer/>
     </div>
