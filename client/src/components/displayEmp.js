@@ -9,11 +9,10 @@ function DisplayEmp() {
     const [searchDept, setSearchDept] = useState('');
     const [searchCity, setSearchCity] = useState('');
 
-    // Extract unique departments and cities
-    const uniqueDepartments = Array.from(new Set(employees.map(emp => emp.department)));
-    const uniqueCities = Array.from(new Set(employees.map(emp => emp.address.city)));
+    const uDep = Array.from(new Set(employees.map(emp => emp.department)));
+    const uCities = Array.from(new Set(employees.map(emp => emp.address.city)));
 
-    const filterEmployees = () => {
+    const filterEmp = () => {
         return employees.filter(emp => {
             return (
                 (searchId === '' || emp.employee.includes(searchId)) &&
@@ -34,13 +33,13 @@ function DisplayEmp() {
                 <input type="text" className="form-control" placeholder="Name" onChange={(e) => setSearchName(e.target.value)} />
                 <select className="form-control" onChange={(e) => setSearchDept(e.target.value)}>
                     <option value="">Select Department</option>
-                    {uniqueDepartments.map((dept, index) => (
+                    {uDep.map((dept, index) => (
                         <option key={index} value={dept}>{dept}</option>
                     ))}
                 </select>
                 <select className="form-control" onChange={(e) => setSearchCity(e.target.value)}>
                     <option value="">Select City</option>
-                    {uniqueCities.map((city, index) => (
+                    {uCities.map((city, index) => (
                         <option key={index} value={city}>{city}</option>
                     ))}
                 </select>
@@ -80,7 +79,7 @@ function DisplayEmp() {
                     <tr><th>ID</th><th>Name</th><th>Gender</th><th>Department</th><th>City</th><th>Actions</th></tr>
                 </thead>
                 <tbody>
-                    {filterEmployees().map((emp, index) => (
+                    {filterEmp().map((emp, index) => (
                         <tr key={index}>
                             <td>{emp.employee}</td>
                             <td>{emp.firstName} {emp.lastName}</td>

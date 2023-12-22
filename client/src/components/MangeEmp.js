@@ -98,14 +98,13 @@ function MangeEmp() {
           <h4 style={{ marginBottom: '10px' }}className="card-title">Performance Evaluation</h4>
           <p><b>Overall Performance Rating: </b>{employee.evaluation.Overall_Performance_Rating}</p>
           <p><b>Evaluator Comments: </b><br></br>{employee.evaluation.Evaluator_Comments}</p>
-          {/* Include other evaluation details if needed */}
         </div>
       </div>
     </div>
   </div>
 
   
-  {/* Buttons for actions */}
+
   <div className="mt-4 mb-4">
   <button className="btn btn-danger" onClick={handleDelete}>Delete Employee</button>
     <Link to={`/empEvaluation/${empId}`} className="btn btn-secondary ml-2">Employee Evaluation</Link>

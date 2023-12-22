@@ -7,7 +7,7 @@ function EmpSearch() {
     const [department, setDepartment] = useState('')
     const [gender, setGender] = useState('')
     const [employees,setEmployees]=useState([])
-    const fetchEmps=()=>{
+    const GetEmps=()=>{
         Axios.get("http://localhost:3001/fetchEmployee/",{
             params:{
                 empId:empId,
@@ -41,7 +41,7 @@ function EmpSearch() {
         <div class="form-check m-1">
         <input type='radio' className='form-check-input' name='gender' value="Female" onClick={(e)=>{setGender(e.target.value)}}/>Female
         </div>
-        <input type="button" value="Search" onClick={fetchEmps} className="btn btn-primary m-1"/>
+        <input type="button" value="Search" onClick={GetEmps} className="btn btn-primary m-1"/>
         </div>
         </form>
       <div>
