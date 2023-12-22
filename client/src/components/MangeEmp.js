@@ -25,7 +25,7 @@ function MangeEmp() {
 
   return (
 <div className="container mt-4">
-  <h1>Employee Details: {employee.firstName} {employee.lastName}</h1>
+  <h1 className='mb-4'>Employee Details: {employee.firstName} {employee.lastName}</h1>
 
   <div className="row">
     <div className="col-md-3">
@@ -106,7 +106,7 @@ function MangeEmp() {
 
   
   {/* Buttons for actions */}
-  <div className="mt-4">
+  <div className="mt-4 mb-4">
   <button className="btn btn-danger" onClick={handleDelete}>Delete Employee</button>
     <Link to={`/empEvaluation/${empId}`} className="btn btn-secondary ml-2">Employee Evaluation</Link>
   </div>
