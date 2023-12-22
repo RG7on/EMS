@@ -8,9 +8,9 @@ import {Routes,Route} from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ManageUsers from './components/ManageUsers';
-import DisplayEmp from './components/DisplayEmp';
+import DisplayEmp from './components/displayEmp';
 import MangeEmp from './components/MangeEmp';
-
+import EmpEvaluation from './components/EmpEvaluation';
 
 
 function App() {
@@ -24,7 +24,8 @@ function App() {
         <Route path="/rejester" element={<Rejester />} />
         <Route path="/ManageUsers" element={<ManageUsers/>} />
         <Route path="/display" element={<DisplayEmp />} />
-        <Route path='/manageEmp' element={<MangeEmp/>}/>
+        <Route path='/manageEmp/:empId' element={<MangeEmp/>}/>
+        <Route path='/empEvaluation/:empId' element={<EmpEvaluation/>}/>
       </Routes>
       <Footer/>
     </div>

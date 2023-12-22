@@ -1,4 +1,4 @@
-export const employees = [
+export var employees = [
     {
         employee: "E2001",
         firstName: "Ahmed",

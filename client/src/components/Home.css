@@ -11,6 +11,57 @@
     margin: 20px;
 }
 
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .th {
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .inputRange {
+    width: 100%;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .saveButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+
 
 @media screen and (max-width: 600px) {
     .home-container {
@@ -23,3 +74,5 @@
         min-width: 0;
     }
 }
+
+
