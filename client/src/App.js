@@ -11,6 +11,7 @@ import ManageUsers from './components/ManageUsers';
 import DisplayEmp from './components/displayEmp';
 import MangeEmp from './components/MangeEmp';
 import EmpEvaluation from './components/EmpEvaluation';
+import ProtectedRoute from './components/ProtectedRoute'; // Adjust the path as necessary
 
 
 function App() {
@@ -19,13 +20,13 @@ function App() {
     <div>
     <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
         <Route path="/" element={<Login />} />
-        <Route path="/rejester" element={<Rejester />} />
-        <Route path="/ManageUsers" element={<ManageUsers/>} />
-        <Route path="/display" element={<DisplayEmp />} />
-        <Route path='/manageEmp/:empId' element={<MangeEmp/>}/>
-        <Route path='/empEvaluation/:empId' element={<EmpEvaluation/>}/>
+        <Route path="/home" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+        <Route path="/rejester" element={<ProtectedRoute><Rejester /></ProtectedRoute>} />
+        <Route path="/ManageUsers" element={<ProtectedRoute><ManageUsers/></ProtectedRoute>} />
+        <Route path="/display" element={<ProtectedRoute><DisplayEmp /></ProtectedRoute>} />
+        <Route path='/manageEmp/:empId' element={<ProtectedRoute><MangeEmp/></ProtectedRoute>}/>
+        <Route path='/empEvaluation/:empId' element={<ProtectedRoute><EmpEvaluation/></ProtectedRoute>}/>
       </Routes>
       <Footer/>
     </div>
