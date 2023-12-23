@@ -65,24 +65,24 @@ app.post("/login", async (req, res) => {
 //     }
 // })
 
-app.get("/fetchEmployee",async(req,res)=>{
-    try{
-        const { empId, firstName, lastName, department ,gender} = req.query;
+// app.get("/fetchEmployee",async(req,res)=>{
+//     try{
+//         const { empId, firstName, lastName, department ,gender} = req.query;
 
-        let query = {};
-        if (empId) query.empId = empId;
-        if (firstName) query.firstName = firstName;
-        if (lastName) query.lastName = lastName;
-        if (department) query.dept = department;
-        if(gender) query.gender=gender;
+//         let query = {};
+//         if (empId) query.empId = empId;
+//         if (firstName) query.firstName = firstName;
+//         if (lastName) query.lastName = lastName;
+//         if (department) query.dept = department;
+//         if(gender) query.gender=gender;
 
-        const employees = await empModel.find(query);
+//         const employees = await empModel.find(query);
 
-        res.send({ employees });}
-    catch(e){
-        console.log(e)
-    }
-})
+//         res.send({ employees });}
+//     catch(e){
+//         console.log(e)
+//     }
+// })
 
 app.get("/fetchUsers", async (req, res) => {
     try {
