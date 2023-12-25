@@ -17,7 +17,7 @@ function DisplayEmp() {
             return (
                 (searchId === '' || emp.employee.includes(searchId)) &&
                 (searchName === '' || (`${emp.firstName} ${emp.lastName}`).toLowerCase().includes(searchName.toLowerCase())) &&
-                (searchGender === '' || emp.gender.toLowerCase() === searchGender.toLowerCase()) &&
+                (searchGender === '' || emp.gender === searchGender) &&
                 (searchDept === '' || emp.department.toLowerCase().includes(searchDept.toLowerCase())) &&
                 (searchCity === '' || emp.address.city.toLowerCase().includes(searchCity.toLowerCase()))
             );
@@ -50,7 +50,7 @@ function DisplayEmp() {
         className="form-check-input" 
         type="radio" 
         name="gender" 
-        value="male" 
+        value="Male" 
         style={{ marginRight: '10px', marginTop: '25px', marginLeft: '10px' }}
         onChange={(e) => setSearchGender(e.target.value)} 
     />
@@ -63,9 +63,8 @@ function DisplayEmp() {
         className="form-check-input" 
         type="radio" 
         name="gender" 
-        value="female" 
+        value="Female" 
         style={{ marginLeft: '30px', marginRight: '10px', marginTop: '25px' }}
-        checked={searchGender === 'female'} 
         onChange={(e) => setSearchGender(e.target.value)} 
     />
     <label 
